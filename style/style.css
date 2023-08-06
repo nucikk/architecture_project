@@ -1,7 +1,7 @@
 header,
 section,
 footer {
-    width: clamp(18.75rem, 100%, 108rem);
+    width: 1728px;
     margin-inline: auto;
     font-family: "Poppins", sans-serif;
     line-height: normal;
@@ -17,8 +17,9 @@ footer {
     font-weight: 500;
 }
 
-.future_title {
-    font-size: clamp(2rem, 1rem + 10vw, 4rem);
+.future_title,
+.interior_title {
+    font-size: 64px;
     font-weight: 600;
 }
 
@@ -30,6 +31,30 @@ footer {
     font-size: 1.25rem;
     font-weight: 500;
     margin: 1.5rem 0 5.3125rem 0;
+}
+
+.interior_title,
+#active_link {
+    color: #191A19;
+}
+
+.list_link,
+.building_status {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FFF;
+}
+
+#active {
+    color: #FF7420;
+    padding-bottom: 1.1875rem;
+    border-bottom: .1875rem solid #FF7420;
+}
+
+#active_link {
+    padding-bottom: 1.1875rem;
+    border-bottom: .1875rem solid #191A19;
 }
 
 /* Header */
@@ -48,12 +73,6 @@ footer {
     gap: 2.75rem;
 }
 
-#active {
-    color: #FF7420;
-    padding-bottom: 1.1875rem;
-    border-bottom: .1875rem solid #FF7420;
-}
-
 .contact_button {
     max-width: 21.75rem;
     padding: .9375rem 1.875rem;
@@ -64,4 +83,82 @@ footer {
 
 .burger {
     display: none;
+}
+
+/* Future Section */
+.future_banner img {
+    position: absolute;
+
+    height: 58.5rem;
+}
+
+.future {
+    width: 37rem;
+    min-height: 58.5rem;
+    position: relative;
+    padding: 10.9375rem 0 12.875rem 6.6875rem;
+}
+
+.services_btn,
+.view_btn {
+    width: 15.375rem;
+    padding: .9375rem 1.875rem;
+    border-radius: .9375rem;
+    background: #FF7420;
+}
+
+.view_btn {
+    color: #FFF;
+}
+
+.button_group {
+    max-width: 23.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.interior {
+    height: 936px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 49px;
+    background-color: #FF7420;
+}
+
+.project_list {
+    width: 1497px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project_list ul {
+    display: flex;
+    gap: 24px;
+}
+
+.building_box {
+    display: flex;
+    gap: 19px;
+}
+
+.tower_img {
+    position: relative;
+    border-radius: 15px;
+}
+
+.building_details {
+    width: 485.24px;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    align-self: flex-end;
+    margin-bottom: 17px;
+}
+
+.building_name {
+    font-size: 24px;
+    font-weight: 500;
 }
