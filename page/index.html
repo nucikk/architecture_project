@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Reset and custom stylesheets -->
     <link rel="stylesheet" href="../style/reset.css" />
     <link rel="stylesheet" href="../style/style.css" />
     <title>Architecture</title>
@@ -13,6 +14,7 @@
     <!-- Header Section -->
     <header>
         <div class="header">
+            <!-- Logo -->
             <img src="../image/JHONTRAKTOR.svg" alt="Logo Name" />
 
             <!-- Navigation Menu -->
@@ -24,7 +26,6 @@
                     <li><a href="#">Project</a></li>
                 </ul>
             </nav>
-            <img class="burger" src="../image/burger-icon.svg" alt="burger-icon" />
 
             <!-- Language Selector and Contact Details -->
             <div class="lang_contact_details">
@@ -41,19 +42,22 @@
 
     <!-- Main Section -->
     <main>
+        <!-- Future Section -->
         <section>
             <div class="future_banner">
                 <img src="../image/construction-workers_banner.png" alt="construction workers banner" />
             </div>
 
+            <!-- Future Content -->
             <div class="future">
                 <h2 class="future_title">
                     We Prepare For The <span class="particular">Future</span>
                 </h2>
                 <p class="future_text">
-                    We provide the best architectural design, contruction, and building
-                    maintance services for you.
+                    We provide the best architectural design, construction, and building
+                    maintenance services for you.
                 </p>
+
                 <div class="button_group">
                     <button class="services_btn">Our Services</button>
                     <button class="view_btn">View Project</button>
@@ -61,15 +65,15 @@
             </div>
         </section>
 
-        <!--interior  -->
+        <!-- Interior Section -->
         <section>
             <div class="interior">
+                <!-- Project List -->
                 <div class="project_list">
                     <h2 class="interior_title">Featured Project</h2>
                     <ul>
-                        <li>
-                            <a id="active_link" class="list_link" href="#">All Works</a>
-                        </li>
+                        <li><a id="active_link" class="list_link" href="#">All Works</a></li>
+                        <!-- Other List Items -->
                         <li><a class="list_link" href="#">Construction</a></li>
                         <li><a class="list_link" href="#">Architecture</a></li>
                         <li><a class="list_link" href="#">Building</a></li>
@@ -77,31 +81,117 @@
                         <li><a class="list_link" href="#">Interior</a></li>
                     </ul>
                 </div>
-                <!-- 01 building -->
+                <!-- Building Boxes -->
                 <div class="building_box">
-                    <img class="tower_img" src="../image/tower-inter-1.png" alt="Skyskuy Tower" />
-                    <div class="building_details">
-                        <h3 class="building_name">Skyskuy Tower</h3>
-                        <p class="building_status">Renovation & Architecture</p>
+                    <!-- Building 01 -->
+                    <div class="building_box">
+                        <img class="tower_img" src="../image/tower-inter-1.png" alt="Skyskuy Tower" />
+                        <div class="building_details">
+                            <h3 class="building_name">Skyskuy Tower</h3>
+                            <h3 class="building_status">Renovation & Architecture</h3>
+                        </div>
                     </div>
-
-                    <!-- 02 building -->
+                    <!-- Building 02 -->
                     <div class="building_box">
                         <img class="tower_img" src="../image/tower-inter-2.png" alt="building" />
                         <div class="building_details">
                             <h3 class="building_name">The Fallingwater House</h3>
-                            <p class="building_status">Building & Interior</p>
+                            <h3 class="building_status">Building & Interior</h3>
                         </div>
                     </div>
-
-
-                    <!-- 03 building -->
+                    <!-- Building 03 -->
                     <div class="building_box">
                         <img class="tower_img" src="../image/tower-inter-3.png" alt="building" />
                         <div class="building_details">
-                            <h3 class="building_name">The Orange Apartemen</h3>
-                            <p class="building_status">Construction & Interior</p>
+                            <h3 class="building_name">The Orange Apartment</h3>
+                            <h3 class="building_status">Construction & Interior</h3>
                         </div>
+                    </div>
+                </div>
+                <div class="explore">
+                    <p>Explore All Projects</p>
+                    <img src="../image/ArrowCircleRight.svg" alt="arrow circle right" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendation Section -->
+        <section>
+            <div class="recommend">
+                <div class="recommend_content">
+                    <h3 class="recommend_title">What Our Client Says</h3>
+                    <p class="recommend_text">
+                        I am very satisfied with the services. Their team is very
+                        professional and efficient in completing our project on time and
+                        at a very affordable cost. The quality of their work is very good
+                        and I highly recommend this company for any construction project.
+                    </p>
+                    <p class="name">Tom DeLonge</p>
+                    <span>CEO, Lexmark</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leading Section -->
+        <section>
+            <div class="leading">
+                <h2 class="leading_heading">
+                    Leading Way In Building & Civil Construction
+                </h2>
+                <!-- Informative Container -->
+                <div class="informative">
+                    <div class="request_box">
+                        <h4 class="quoto">Request A Quote</h4>
+                        <p class="product_about">
+                            Complete control over products allows us to offer our customers the
+                            best quality, prices, and services. We take great pride in everything
+                            that we do at Jhontraktor.
+                        </p>
+                        <!-- Input Form -->
+                        <form class="registration_form">
+                            <input class="user_input" type="text" placeholder="Name" />
+                            <input class="user_input" type="email" placeholder="Email" />
+                            <input class="user_input" type="number" name="number" placeholder="Number" />
+                            <select class="user_input select">
+                                <option value="" disabled selected>
+                                    Select Your Service
+                                </option>
+                                <option value="location">ილია ჭავჭავაძის გამზირი 77</option>
+                            </select>
+                            <textarea name="Additional Details!" cols="30" rows="10"
+                                placeholder="Additional Details!"></textarea>
+                            <button class="submit_btn" type="submit">Submit Request</button>
+                        </form>
+                    </div>
+                    <!-- Contact Info Box -->
+                    <div class="contact_box">
+                        <h2 class="info">Contact Info</h2>
+                        <!-- Location -->
+                        <div class="location_box">
+                            <h4 class="location_name">Our Location</h4>
+                            <p>18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang Kav. 18, Jakarta Selatan
+                                ,12520</p>
+                        </div>
+                        <!-- Quick Contact -->
+                        <div class="quick_box">
+                            <h4 class="location_name">Quick Contact</h4>
+                            <div>
+                                <label for="email">Email:</label>
+                                <a class="contact_name" href="mailto:contact@jhontraktor.com">contact@jhontraktor.com</a>
+                            </div>
+                            <div>
+                                <label for="Call us">Call Us :</label>
+                                <a class="contact_name" href="tel:+62-877-2469-7246">(+62) 877-2469-7246</a>
+                            </div>
+                        </div>
+                        <!-- Opening Hours -->
+                        <div>
+                            <h4 class="location_name">Opening Hours</h4>
+                            <p>Monday - Friday</p>
+                            <p>09:00 AM - 06:00 PM</p>
+                        </div>
+                        <h3 class="help_text">Do You Have Any Question? Just Contact Us To Get Help!</h3>
+                        <button class="contact_button">Contact Us</button>
                     </div>
                 </div>
             </div>

@@ -9,22 +9,30 @@ footer {
 }
 
 /* FONTS */
+
+h3 {
+    font-size: 20px;
+}
+
 .nav_items a,
 .languages,
-.contact_button {
+.contact_button,
+.quoto,
+.info {
     color: #fff;
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-.future_title,
-.interior_title {
-    font-size: 64px;
+.info {
     font-weight: 600;
 }
 
-.particular {
-    color: #FF7420;
+.future_title,
+.interior_title,
+.leading_heading {
+    font-size: 64px;
+    font-weight: 600;
 }
 
 .future_text {
@@ -33,17 +41,46 @@ footer {
     margin: 1.5rem 0 5.3125rem 0;
 }
 
-.interior_title,
-#active_link {
-    color: #191A19;
-}
-
 .list_link,
-.building_status {
+.building_status,
+.explore,
+.recommend_title,
+.product_about,
+.submit_btn,
+.location_name {
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
     color: #FFF;
+}
+
+.interior_title,
+.explore,
+#active_link {
+    color: #191A19;
+}
+
+.particular,
+.recommend_title {
+    line-height: 42px;
+    color: #FF7420;
+}
+
+.recommend_text,
+.name {
+    font-size: 20px;
+    margin: 14px 0 4px 0;
+}
+
+.name,
+.product_about,
+.submit_btn {
+    font-weight: 500;
+}
+
+.location_name,
+.help_text {
+    font-weight: 400;
 }
 
 #active {
@@ -73,6 +110,10 @@ footer {
     gap: 2.75rem;
 }
 
+.languages {
+    background-color: #191A19;
+}
+
 .contact_button {
     max-width: 21.75rem;
     padding: .9375rem 1.875rem;
@@ -81,14 +122,10 @@ footer {
     background-color: #FF7420;
 }
 
-.burger {
-    display: none;
-}
 
 /* Future Section */
 .future_banner img {
     position: absolute;
-
     height: 58.5rem;
 }
 
@@ -161,4 +198,119 @@ footer {
 .building_name {
     font-size: 24px;
     font-weight: 500;
+}
+
+.explore {
+    width: 335px;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    gap: 10px;
+}
+
+.recommend {
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191A19;
+}
+
+.recommend_content {
+    width: 1067px;
+    text-align: center;
+}
+
+.leading {
+    height: 927px;
+    padding: 61px 134px;
+    display: grid;
+    gap: 121px;
+    background-color: #191A19 ;
+}
+
+.informative {
+    width: 1503px;
+    height: 664px;
+    display: flex;
+    gap: 41px;
+}
+
+.request_box,
+.contact_box {
+    width: 963px;
+    border-radius: 15px;
+    background-color: #FF7420;
+    padding: 42px 53px;
+}
+
+.contact_box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 499px;
+}
+
+.product_about {
+    width: 792px;
+}
+
+.product_about {
+    margin: 24px 0 18px;
+}
+
+.registration_form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.user_input,
+textarea {
+    width: 419px;
+    height: 76px;
+    border-radius: 15px;
+    font-size: 18px;
+    color: #0000009b;
+}
+
+textarea,
+.submit_btn {
+    width: 856px;
+    height: 148px;
+    border-radius: 15px;
+    resize: none;
+}
+
+.submit_btn,
+.contact_button {
+    height: 76px;
+    background-color: #191A19;
+}
+
+::placeholder,.select {
+    padding: 23px 65px;
+    font-size: 20px;
+    color: #191a1980;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+/* contact */
+.location_box {
+    margin-top: 38px;
+}
+
+.contact_name {
+    color: #fff;
+}
+
+.contact_button {
+    width: 384px;
+}
+
+.help_text {
+    width: 384px;
+    margin-bottom: 40px;
+    line-height: 30px;
 }

@@ -21,10 +21,9 @@ a {
   text-decoration: none;
   color: #000;
 }
-select, option {
+select, option,input, textarea {
   border:0px;
   outline:0px;
-  background-color: black;
 }
 button {
   color: #FFF;
