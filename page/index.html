@@ -72,7 +72,9 @@
                 <div class="project_list">
                     <h2 class="interior_title">Featured Project</h2>
                     <ul>
-                        <li><a id="active_link" class="list_link" href="#">All Works</a></li>
+                        <li>
+                            <a id="active_link" class="list_link" href="#">All Works</a>
+                        </li>
                         <!-- Other List Items -->
                         <li><a class="list_link" href="#">Construction</a></li>
                         <li><a class="list_link" href="#">Architecture</a></li>
@@ -143,9 +145,9 @@
                     <div class="request_box">
                         <h4 class="quoto">Request A Quote</h4>
                         <p class="product_about">
-                            Complete control over products allows us to offer our customers the
-                            best quality, prices, and services. We take great pride in everything
-                            that we do at Jhontraktor.
+                            Complete control over products allows us to offer our customers
+                            the best quality, prices, and services. We take great pride in
+                            everything that we do at Jhontraktor.
                         </p>
                         <!-- Input Form -->
                         <form class="registration_form">
@@ -153,7 +155,7 @@
                             <input class="user_input" type="email" placeholder="Email" />
                             <input class="user_input" type="number" name="number" placeholder="Number" />
                             <select class="user_input select">
-                                <option value="" disabled selected>
+                                <option value="none" disabled selected hidden>
                                     Select Your Service
                                 </option>
                                 <option value="location">ილია ჭავჭავაძის გამზირი 77</option>
@@ -169,18 +171,21 @@
                         <!-- Location -->
                         <div class="location_box">
                             <h4 class="location_name">Our Location</h4>
-                            <p>18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang Kav. 18, Jakarta Selatan
-                                ,12520</p>
+                            <p>
+                                18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang
+                                Kav. 18, Jakarta Selatan ,12520
+                            </p>
                         </div>
                         <!-- Quick Contact -->
                         <div class="quick_box">
                             <h4 class="location_name">Quick Contact</h4>
                             <div>
-                                <label for="email">Email:</label>
-                                <a class="contact_name" href="mailto:contact@jhontraktor.com">contact@jhontraktor.com</a>
+                                <span for="email">Email:</span>
+                                <a class="contact_name"
+                                    href="mailto:contact@jhontraktor.com">contact@jhontraktor.com</a>
                             </div>
                             <div>
-                                <label for="Call us">Call Us :</label>
+                                <span for="Call us">Call Us :</span>
                                 <a class="contact_name" href="tel:+62-877-2469-7246">(+62) 877-2469-7246</a>
                             </div>
                         </div>
@@ -190,7 +195,9 @@
                             <p>Monday - Friday</p>
                             <p>09:00 AM - 06:00 PM</p>
                         </div>
-                        <h3 class="help_text">Do You Have Any Question? Just Contact Us To Get Help!</h3>
+                        <h3 class="help_text">
+                            Do You Have Any Question? Just Contact Us To Get Help!
+                        </h3>
                         <button class="contact_button">Contact Us</button>
                     </div>
                 </div>
@@ -199,7 +206,68 @@
     </main>
 
     <!-- Footer Section -->
-    <footer></footer>
+    <footer>
+        <div class="subscribe_item">
+            <img src="../image/footer-logo(white).svg" alt="footer logo" />
+            <div>
+                <span class="message_sub">Subscribe To Our Newslatter :</span>
+                <input class="email_input" type="text" placeholder="Enter your email addres" />
+            </div>
+        </div>
+        <div class="footer_content">
+            <!-- 01 About-->
+            <div class="about_box footerFXG">
+                <h3>About Us</h3>
+                <p>
+                    We have the confidence to provide the best service for you, with the
+                    support of Professional and Certified HR that we currently have and
+                    the high-quality materials we use and structured work techniques, we
+                    will be able to realize timely completion of work.
+                </p>
+            </div>
+            <!-- 02 office-->
+            <div class="office footerFXG">
+                <h3>Office</h3>
+                <div>
+                    <p>18 Office Park Building 21th Floor Unit C.</p>
+                    <p>Jl. TB Simatupang Kav. 18,</p>
+                    <p>Jakarta Selatan ,12520</p>
+                </div>
+            </div>
+            <!-- 03 Contact-->
+            <div class="contact footerFXG">
+                <h3>Contact</h3>
+                <div>
+                    <div>
+                        <span for="email">Email:</span>
+                        <a class="contact_name" href="mailto:contact@jhontraktor.com">contact@jhontraktor.com</a>
+                    </div>
+                    <div>
+                        <span for="Call us">Call Us :</span>
+                        <a class="contact_name" href="tel:+62-877-2469-7246">(+62) 877-2469-7246</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 04 Link-->
+            <div class="link footerFXG">
+                <h3>Link</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">project</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social_icons">
+            <img src="../image/linkedin-circled-1.svg" alt="Social Icons" />
+            <img src="../image/medium-2.svg" alt="Social Icons" />
+            <img src="../image/Instagram-3.svg" alt="Social Icons" />
+            <img src="../image/Twitter-4.svg" alt="Social Icons" />
+            <img src="../image/Facebook-5.svg" alt="Social Icons" />
+        </div>
+    </footer>
 </body>
 
 </html>

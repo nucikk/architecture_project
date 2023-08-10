@@ -226,7 +226,7 @@ h3 {
     padding: 61px 134px;
     display: grid;
     gap: 121px;
-    background-color: #191A19 ;
+    background-color: #191A19;
 }
 
 .informative {
@@ -288,7 +288,8 @@ textarea,
     background-color: #191A19;
 }
 
-::placeholder,.select {
+.user_input::placeholder,
+.select {
     padding: 23px 65px;
     font-size: 20px;
     color: #191a1980;
@@ -313,4 +314,73 @@ textarea,
     width: 384px;
     margin-bottom: 40px;
     line-height: 30px;
+}
+
+/* footer section */
+footer,
+.subscribe_item {
+    height: 362px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 29px;
+    background-color: #191A19;
+
+}
+
+.subscribe_item {
+    width: 1495px;
+    height: 36px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.email_input {
+    width: 271px;
+    height: 30px;
+    font-style: 16px;
+    color: #ffffff80;
+    background-color: #191A19;
+    border-bottom: 2px solid #ffffff80;
+}
+
+.message_sub {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.footer_content {
+    width: 1495px;
+    height: 152px;
+    display: flex;
+    justify-content: space-between;
+    gap: 115px;
+}
+
+
+.about_box {
+    width: 464px;
+}
+
+.office {
+    width: 306px;
+}
+
+.footerFXG {
+    display: flex;
+    gap: 14px;
+    line-height: 26px;
+    flex-direction: column;
+
+}
+
+.link a {
+    color: #FFF;
+}
+
+.social_icons {
+    width: 1495px;
+    display: flex;
+    gap: 14px;
 }
